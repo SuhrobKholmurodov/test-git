@@ -1,0 +1,80 @@
+.container
+{
+    display: grid;
+    grid-template-columns: 30% 20% 20% 25%;
+    grid-template-rows: 200px 200px 200px 200px;
+    gap: 20px;
+}
+.first
+{
+    background-color:blueviolet;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+}
+.second
+{
+    background-color: grey;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.third
+{
+    background-color: rgb(231, 215, 215);
+    border: 1px solid red;
+    border-radius: 10px;
+}
+.four
+{
+    background-color: yellow;
+    border: 1px solid yellow;
+    border-radius: 10px;
+
+}
+.one 
+{
+    display: flex;
+    color: white;
+}
+.text1 h6
+{
+    margin-top: -20px;
+}
+.text1 h5
+{
+    margin-top: -1px;
+}
+.text2
+{
+    color: white;
+    margin-top: -35px;
+    font-size: 15px;
+    width: 99%;
+}
+.text2 h6
+{
+    margin-top: -15px;
+    font-size: 9px;
+}
+.two
+{
+    display: flex;   
+    color: white;
+}
+.text3 h5
+{
+    margin-top: -1px;
+}
+.text3 h6
+{
+    margin-top: -20px;
+}
+.text4
+{
+    color: white;
+    margin-top: -35px;
+}
+.text4 h6
+{
+    margin-top: -20px;
+    font-size: 9px;
+}
